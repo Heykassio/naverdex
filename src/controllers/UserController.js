@@ -29,7 +29,7 @@ module.exports = {
             });
             
         } catch (error) {
-            return res.status(401).json({error});
+            return res.status(404).json({error});
         }
     }
 }
