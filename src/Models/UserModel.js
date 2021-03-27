@@ -1,6 +1,7 @@
 const { Model } = require('objection');
 const knex = require('../database');
 const Naver = require('./NaverModel');
+const Project = require('./ProjectModel');
 Model.knex(knex);
 
 class User extends Model {

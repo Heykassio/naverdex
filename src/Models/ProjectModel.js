@@ -1,5 +1,6 @@
 const { Model } = require('objection');
 const knex = require('../database');
+const User = require('./UserModel');
 Model.knex(knex);
 
 class Project extends Model {
